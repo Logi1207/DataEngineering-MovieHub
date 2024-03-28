@@ -10,7 +10,7 @@ header_data = {
   }
 
 ### API Data Extraction:
-print("Extracting data....")
+
 csv_data = open("./MovieDetail.csv", 'a', encoding='utf-8', newline='')
 page=1
 while page<=100:
@@ -50,7 +50,7 @@ selectedCols['firstLetter'] = selectedCols['title'].str[0]
 engine = create_engine('mysql+mysqlconnector://root:Logi%40mysql@localhost:3306/InviciblClouds')
 
 try:
-    selectedCols.to_sql(name='moviedetails', con=engine, if_exists='append', index=False, method='multi', chunksize=1000)
+    selectedCols.to_sql(name='moviedetails1', con=engine, if_exists='append', index=False, method='multi', chunksize=1000)
     print('Data loaded successfully!')
 except Exception as e:
     print(f'Error loading data:{e}')
