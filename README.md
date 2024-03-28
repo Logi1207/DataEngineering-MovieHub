@@ -23,36 +23,6 @@ The project consists of two main components:
 - Pandas library for data manipulation and filtering.
 - SQLAlchemy library for database connection and data loading.
 
-
-Sure, here's a README file template for your GitHub repository:
-
-markdown
-Copy code
-# Movie Data Engineering Project
-
-This project aims to collect details of movies starting with the letters 'S' and 'H' from various websites and APIs, store them in a database, and provide query capabilities to retrieve relevant data.
-
-## Overview
-
-The project consists of two main components:
-
-1. Data Collection:
-   - Utilizes various web APIs to gather movie details.
-   - Filters movies starting with the letters 'S' and 'H'.
-   - Stores the filtered data in a database.
-
-2. Database Schema and Query API:
-   - Designs a database schema to store relevant movie details.
-   - Provides query capabilities through Python scripts to extract meaningful insights from the database.
-
-## Technologies Used
-
-- Python for scripting and data manipulation.
-- MySQL database for storing movie details.
-- Requests library for making HTTP requests to APIs.
-- Pandas library for data manipulation and filtering.
-- SQLAlchemy library for database connection and data loading.
-
 ## Setup Instructions
 
 1.Install dependencies:
