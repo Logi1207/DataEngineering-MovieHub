@@ -30,6 +30,5 @@ The project consists of two main components:
    pip install requests
    pip install pandas
    pip install sqlalchemy
-
 2. Run MovieDetailAPI.py to collect movie data from APIs and store it in CSV files.
    Run Query.py to load filtered movie data into the MySQL database.
